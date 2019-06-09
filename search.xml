@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Open the Afkayas</title>
+      <link href="/2019/06/08/2/"/>
+      <url>/2019/06/08/2/</url>
+      
+        <content type="html"><![CDATA[<center>破解了一个比较简单的小程序，，哎嘿嘿</center><a id="more"></a><h3 id="First"><a href="#First" class="headerlink" title="First."></a>First.</h3><p>od不知道为啥坏掉了，不好用了，所以下了一个OllyICE。</p><h3 id="Second"><a href="#Second" class="headerlink" title="Second."></a>Second.</h3><p>打开文件，缺少msvbvm50.dll，于是从网上下载后安装再Afkayas同一目录，可以打开。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg1.png" alt></p><h3 id="Third"><a href="#Third" class="headerlink" title="Third."></a>Third.</h3><p>打开OllyICE，将程序拖进去。</p><h3 id="Fourth"><a href="#Fourth" class="headerlink" title="Fourth."></a>Fourth.</h3><p>打开文件后随便输入，点击OK，发现出现弹窗，留意上面的内容。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg3.png" alt></p><h3 id="Fifth"><a href="#Fifth" class="headerlink" title="Fifth."></a>Fifth.</h3><p>查找所有字符串。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg7.png" alt></p><h3 id="Sixth"><a href="#Sixth" class="headerlink" title="Sixth."></a>Sixth.</h3><p>得到这个，找到You Get Wrong这个关键词，双击进去。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg4.png" alt></p><h3 id="Seventh"><a href="#Seventh" class="headerlink" title="Seventh."></a>Seventh.</h3><p>发现是从上面跳转下来的，上一句就是JMP，无条件跳转，所以只要上面不跳转就ok了，让上面的JE改成NOP，就不会执行任何命令了。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg5.png" alt></p><h3 id="Eight"><a href="#Eight" class="headerlink" title="Eight."></a>Eight.</h3><p>保存，完事。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg9.png" alt><br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg10.png" alt></p><h3 id="Ninth"><a href="#Ninth" class="headerlink" title="Ninth."></a>Ninth.</h3><p>保存后运行。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg6.png" alt><br>完成！</p><h3 id="Tenth"><a href="#Tenth" class="headerlink" title="Tenth."></a>Tenth.</h3><p>玩一个好玩的，修改弹窗的文字。</p><p>首先在ICE中打开刚刚破解好的程序，打开程序。按之前的作找到弹窗文字出现的地方，双击进如，找到地址，在下面找到文字编辑找地址。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg4.jpg" alt></p><h3 id="Eleventh"><a href="#Eleventh" class="headerlink" title="Eleventh."></a>Eleventh.</h3><p>查找地址<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg3.jpg" alt></p><h3 id="Twelfth"><a href="#Twelfth" class="headerlink" title="Twelfth."></a>Twelfth.</h3><p>找到后将其改成Hello World<br>（注意不够的用空格代替)<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg5.jpg" alt></p><h3 id="Thirteenth"><a href="#Thirteenth" class="headerlink" title="Thirteenth."></a>Thirteenth.</h3><p>保存，完事，打开测试。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg6.jpg" alt><br>OOOOOOOOOOOOOOOK!</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Welcome To My Blog</title>
       <link href="/2019/06/04/1/"/>
       <url>/2019/06/04/1/</url>
