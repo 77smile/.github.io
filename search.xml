@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2019/06/16/3/"/>
+      <url>/2019/06/16/3/</url>
+      
+        <content type="html"><![CDATA[<hr><h2 id="title：AfKayAs-2"><a href="#title：AfKayAs-2" class="headerlink" title="title：AfKayAs #2"></a>title：AfKayAs #2</h2><center>AfKayAs #2 kill the Nag & Find The~~~</center><a id="more"></a>## 去弹窗程序打开后有弹窗，时间蛮长的，想办法去掉。### Timer搜索法运行后，搜索Timer![](https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg20190616211546.png)<p>我们找到Timer之后 在上面的位置可以看到一个0x1B58，这个是计时器的秒数。所以第一种去Neg的方法就是将0x1B58改为0x0001，保存就可以了。</p><p>但是此种方法也有一定的局限性，如果程序的作者将计时器的默认名称改掉之后 根本无法在内存中搜索到Timer关键字，也就无法下手。还有一种4C法，还没学会heihei~。</p><h2 id="开始破解"><a href="#开始破解" class="headerlink" title="开始破解"></a>开始破解</h2><p>首先伪码测试<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg20190616195257.png" alt></p><p>查找参考文本字符串，call进去之后往上找函数起始处<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg20190616195840.png" alt><br>在开始出断一下，跑起来之后，开始一步步往下F8。<br>大部分都看不懂，不懂得函数百度一下，最后终于找到一部分能看懂的。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg20190616200209.png" alt></p><p>这段代码意思就是用户长度乘上15b38再加上第一个字符的ascll。<br><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg20190610204900.png" alt></p><p>然后就是一步步跟踪</p><p><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg20190616200505.png" alt></p><p><img src="https://raw.githubusercontent.com/77smile/Webpic/master/C%3A%5CUsers%5CCX%5CDesktop%5Cimg20190616202602.png" alt></p><p>注意堆栈，这个应该就是serial了</p><p>基本算法就是（name的长度）<em>0x15B38+第一个字符的ASCII码值）转成10进制字符串</em>3-0x2+0x15算出serial。</p><p>注册机还没学会咋用，下册再写。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Open the Afkayas</title>
       <link href="/2019/06/08/2/"/>
       <url>/2019/06/08/2/</url>
